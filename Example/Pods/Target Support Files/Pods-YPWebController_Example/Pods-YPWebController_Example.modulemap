@@ -1,0 +1,6 @@
+framework module Pods_YPWebController_Example {
+  umbrella header "Pods-YPWebController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module YPWebController {
+  umbrella header "YPWebController-umbrella.h"
+
+  export *
+  module * { export * }
+}

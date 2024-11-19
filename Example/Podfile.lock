@@ -1,0 +1,16 @@
+PODS:
+  - YPWebController (0.1.0)
+
+DEPENDENCIES:
+  - YPWebController (from `../`)
+
+EXTERNAL SOURCES:
+  YPWebController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPWebController: c003c29489e62da5be4a0af426e60ba651e3c1ee
+
+PODFILE CHECKSUM: 383f289372cdc74e9157cce1ca745c1d0bc64e75
+
+COCOAPODS: 1.16.2

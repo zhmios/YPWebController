@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1AEBE60943B6C47CB9744BC8C58B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2CF9A17D7A6588C91EE50F5DB31D048F /* Pods-YPWebController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8545E5DC6CD2C9195DED42FCEE52C04 /* Pods-YPWebController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327E009317EE6F27E7A9DDBF31974018 /* Pods-YPWebController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE507DD3E14C5AAFB5BD190F934B5F /* Pods-YPWebController_Tests-dummy.m */; };
+		3FB1F6157D462BC1A5ED071919000DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5C947B4BE9410ABE65869BC16F6AA8F1 /* Pods-YPWebController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F801E74FCAA05FB7C1B54F02E81D8E10 /* Pods-YPWebController_Example-dummy.m */; };
+		64A7E9CCA3D9B007415FBF840B3582F9 /* Pods-YPWebController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CE3CF3A715187018AC5EECED42582D /* Pods-YPWebController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBA98E4C5B3459DAF5DD3F1DDD0128D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67CAB2EBDADCF2789086CE9AB46CE2 /* ReplaceMe.m */; };
+		74312CCE556CAB9A3E639D97BB9BE5B6 /* YPWebController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A519E237C82CA429319D9AEC9667F66 /* YPWebController-dummy.m */; };
+		8F066BA0028DBFA8AEE0565EAA01FBF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B8F1994461BA06FDA03D30F55CA212AF /* YPWebController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D8FBCFE3D6E9054EEFE01CBB265132 /* YPWebController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312C95B6A0A1FAB9F8D177CB14167C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979206E1BDD5F41E9FF33638977BA71C;
+			remoteInfo = "Pods-YPWebController_Example";
+		};
+		B37AAF4AF50F90152A9ACE3F583DE117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D5F7A7A89FFAC8B38C32D836413967;
+			remoteInfo = YPWebController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029C9E12CF3BC3A076DC95CCCCAC7E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0774C03C4079A96FDDA7D5CC94DFB7A4 /* YPWebController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YPWebController-Info.plist"; sourceTree = "<group>"; };
+		0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPWebController; path = YPWebController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F43C8FB6BEFA2B4D8FB192EA2DA65F /* YPWebController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YPWebController.modulemap; sourceTree = "<group>"; };
+		145BEEA9489503E26511ED3AD1628E57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YPWebController_Tests"; path = Pods_YPWebController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C37B4F6E02E9A144CEB440B0A641F8 /* Pods-YPWebController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPWebController_Tests.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F67CAB2EBDADCF2789086CE9AB46CE2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YPWebController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		44D8FBCFE3D6E9054EEFE01CBB265132 /* YPWebController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPWebController-umbrella.h"; sourceTree = "<group>"; };
+		4A519E237C82CA429319D9AEC9667F66 /* YPWebController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPWebController-dummy.m"; sourceTree = "<group>"; };
+		604918129155EEE8FF05EC435D7F0F8A /* YPWebController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPWebController-prefix.pch"; sourceTree = "<group>"; };
+		62C5BE214A19577033584C736663F1B0 /* YPWebController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPWebController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67A8BC81B4A0CD136637928F61BF7A7A /* YPWebController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPWebController.release.xcconfig; sourceTree = "<group>"; };
+		72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YPWebController_Example"; path = Pods_YPWebController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7458497C054F1C13643F5BA58D7A6D50 /* Pods-YPWebController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPWebController_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAA830ED004EB9279242DCC7B40D87B /* Pods-YPWebController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPWebController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2B2EAACCE7CE12A48563D24829D67CC /* Pods-YPWebController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPWebController_Example-Info.plist"; sourceTree = "<group>"; };
+		B8545E5DC6CD2C9195DED42FCEE52C04 /* Pods-YPWebController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPWebController_Example-umbrella.h"; sourceTree = "<group>"; };
+		C8BE507DD3E14C5AAFB5BD190F934B5F /* Pods-YPWebController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPWebController_Tests-dummy.m"; sourceTree = "<group>"; };
+		C9CE3CF3A715187018AC5EECED42582D /* Pods-YPWebController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPWebController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D0CF48D39949163289C0360199216E80 /* Pods-YPWebController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPWebController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2252FE19B423FFAC9989FDDCFE63B21 /* Pods-YPWebController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPWebController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF94F74F2B8102EB969588804A0DC26B /* Pods-YPWebController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPWebController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0A7EADA82F50C7003B8E83B4018A7E6 /* YPWebController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPWebController.debug.xcconfig; sourceTree = "<group>"; };
+		E67FD396FFDAAD6C519AF75011F7A945 /* Pods-YPWebController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPWebController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8F5FE5FEA653319FC7EBD3BADE7B14C /* Pods-YPWebController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPWebController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E9EE9437DDFF667A6C0A7EE04FA45485 /* Pods-YPWebController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPWebController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE67F5916DCE28BE1CB20A3F347B156D /* Pods-YPWebController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPWebController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0B1E14CC68669A1717F10EBB17A6BAE /* Pods-YPWebController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPWebController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F801E74FCAA05FB7C1B54F02E81D8E10 /* Pods-YPWebController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPWebController_Example-dummy.m"; sourceTree = "<group>"; };
+		FA6AFB87286BC6763DC3F41554692C98 /* Pods-YPWebController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPWebController_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DCC4300C725EC687474C63633D7E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB1F6157D462BC1A5ED071919000DB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ADAC567FCAFB68D93EB4E2ADBD5051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F066BA0028DBFA8AEE0565EAA01FBF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89A19B891373C5A75D8E2E9FA8DF285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1AEBE60943B6C47CB9744BC8C58B13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2654BBB6F705446B083E64107CF64438 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				145BEEA9489503E26511ED3AD1628E57 /* LICENSE */,
+				029C9E12CF3BC3A076DC95CCCCAC7E17 /* README.md */,
+				62C5BE214A19577033584C736663F1B0 /* YPWebController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		39F4FF2F20B44C48CFA9F48030A99141 /* YPWebController */ = {
+			isa = PBXGroup;
+			children = (
+				3F67CAB2EBDADCF2789086CE9AB46CE2 /* ReplaceMe.m */,
+				2654BBB6F705446B083E64107CF64438 /* Pod */,
+				EA4A2E22F8F14B627234AFAED0A7C76C /* Support Files */,
+			);
+			name = YPWebController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C4E5E001032594C9CC7A066B9743903 /* Pods-YPWebController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7458497C054F1C13643F5BA58D7A6D50 /* Pods-YPWebController_Example.modulemap */,
+				D0CF48D39949163289C0360199216E80 /* Pods-YPWebController_Example-acknowledgements.markdown */,
+				D2252FE19B423FFAC9989FDDCFE63B21 /* Pods-YPWebController_Example-acknowledgements.plist */,
+				F801E74FCAA05FB7C1B54F02E81D8E10 /* Pods-YPWebController_Example-dummy.m */,
+				E8F5FE5FEA653319FC7EBD3BADE7B14C /* Pods-YPWebController_Example-frameworks.sh */,
+				B2B2EAACCE7CE12A48563D24829D67CC /* Pods-YPWebController_Example-Info.plist */,
+				B8545E5DC6CD2C9195DED42FCEE52C04 /* Pods-YPWebController_Example-umbrella.h */,
+				9EAA830ED004EB9279242DCC7B40D87B /* Pods-YPWebController_Example.debug.xcconfig */,
+				E9EE9437DDFF667A6C0A7EE04FA45485 /* Pods-YPWebController_Example.release.xcconfig */,
+			);
+			name = "Pods-YPWebController_Example";
+			path = "Target Support Files/Pods-YPWebController_Example";
+			sourceTree = "<group>";
+		};
+		8A30247EF3BFCF558FEBDF0F4F98A568 /* Pods-YPWebController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32C37B4F6E02E9A144CEB440B0A641F8 /* Pods-YPWebController_Tests.modulemap */,
+				DF94F74F2B8102EB969588804A0DC26B /* Pods-YPWebController_Tests-acknowledgements.markdown */,
+				E67FD396FFDAAD6C519AF75011F7A945 /* Pods-YPWebController_Tests-acknowledgements.plist */,
+				C8BE507DD3E14C5AAFB5BD190F934B5F /* Pods-YPWebController_Tests-dummy.m */,
+				FA6AFB87286BC6763DC3F41554692C98 /* Pods-YPWebController_Tests-Info.plist */,
+				C9CE3CF3A715187018AC5EECED42582D /* Pods-YPWebController_Tests-umbrella.h */,
+				F0B1E14CC68669A1717F10EBB17A6BAE /* Pods-YPWebController_Tests.debug.xcconfig */,
+				EE67F5916DCE28BE1CB20A3F347B156D /* Pods-YPWebController_Tests.release.xcconfig */,
+			);
+			name = "Pods-YPWebController_Tests";
+			path = "Target Support Files/Pods-YPWebController_Tests";
+			sourceTree = "<group>";
+		};
+		ACE0AEF361A526B5E16E37033C1A9414 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E5E001032594C9CC7A066B9743903 /* Pods-YPWebController_Example */,
+				8A30247EF3BFCF558FEBDF0F4F98A568 /* Pods-YPWebController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0030D00E655F01C693211F4EC5276F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */,
+				1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */,
+				0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B8F8F6402E88B68297438E114069D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F4FF2F20B44C48CFA9F48030A99141 /* YPWebController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C0B8F8F6402E88B68297438E114069D6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B0030D00E655F01C693211F4EC5276F4 /* Products */,
+				ACE0AEF361A526B5E16E37033C1A9414 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA4A2E22F8F14B627234AFAED0A7C76C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F43C8FB6BEFA2B4D8FB192EA2DA65F /* YPWebController.modulemap */,
+				4A519E237C82CA429319D9AEC9667F66 /* YPWebController-dummy.m */,
+				0774C03C4079A96FDDA7D5CC94DFB7A4 /* YPWebController-Info.plist */,
+				604918129155EEE8FF05EC435D7F0F8A /* YPWebController-prefix.pch */,
+				44D8FBCFE3D6E9054EEFE01CBB265132 /* YPWebController-umbrella.h */,
+				E0A7EADA82F50C7003B8E83B4018A7E6 /* YPWebController.debug.xcconfig */,
+				67A8BC81B4A0CD136637928F61BF7A7A /* YPWebController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YPWebController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		024EB7BE8DB5BDDF3DB716D724CFA53F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF9A17D7A6588C91EE50F5DB31D048F /* Pods-YPWebController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E27CC18314286BFA70F244BDB67274F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A7E9CCA3D9B007415FBF840B3582F9 /* Pods-YPWebController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E47B5582424CDFA287F883352DF1405 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F1994461BA06FDA03D30F55CA212AF /* YPWebController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86852C67191722C313E45A2E98AD3D5A /* Pods-YPWebController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3F170F37DEF4877826678A94F259EB /* Build configuration list for PBXNativeTarget "Pods-YPWebController_Tests" */;
+			buildPhases = (
+				3E27CC18314286BFA70F244BDB67274F /* Headers */,
+				D46C72BDADC16997A3579E63C589D9B7 /* Sources */,
+				A2DCC4300C725EC687474C63633D7E83 /* Frameworks */,
+				A19F43EE17B36D9C2C3FC4587C877589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD16DF13D270B5A93A52D3168DC8825 /* PBXTargetDependency */,
+			);
+			name = "Pods-YPWebController_Tests";
+			productName = Pods_YPWebController_Tests;
+			productReference = 1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		979206E1BDD5F41E9FF33638977BA71C /* Pods-YPWebController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE96D555C8E58803757E199881FE849B /* Build configuration list for PBXNativeTarget "Pods-YPWebController_Example" */;
+			buildPhases = (
+				024EB7BE8DB5BDDF3DB716D724CFA53F /* Headers */,
+				EAC77CB04037137F59101572303A52F1 /* Sources */,
+				A8ADAC567FCAFB68D93EB4E2ADBD5051 /* Frameworks */,
+				8161D1F7E79D548CFFDAFB99B9117E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C96EBC1801BB3DA95ED5EAEFE55231 /* PBXTargetDependency */,
+			);
+			name = "Pods-YPWebController_Example";
+			productName = Pods_YPWebController_Example;
+			productReference = 72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5D5F7A7A89FFAC8B38C32D836413967 /* YPWebController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC3F793B55509C6B4F8D2E0A3D4EEFB /* Build configuration list for PBXNativeTarget "YPWebController" */;
+			buildPhases = (
+				4E47B5582424CDFA287F883352DF1405 /* Headers */,
+				435F1FE666BF9329ACD88599820FF848 /* Sources */,
+				F89A19B891373C5A75D8E2E9FA8DF285 /* Frameworks */,
+				B7DD11214361686A23D847961947A5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPWebController;
+			productName = YPWebController;
+			productReference = 0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0030D00E655F01C693211F4EC5276F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979206E1BDD5F41E9FF33638977BA71C /* Pods-YPWebController_Example */,
+				86852C67191722C313E45A2E98AD3D5A /* Pods-YPWebController_Tests */,
+				C5D5F7A7A89FFAC8B38C32D836413967 /* YPWebController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8161D1F7E79D548CFFDAFB99B9117E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19F43EE17B36D9C2C3FC4587C877589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DD11214361686A23D847961947A5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435F1FE666BF9329ACD88599820FF848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBA98E4C5B3459DAF5DD3F1DDD0128D /* ReplaceMe.m in Sources */,
+				74312CCE556CAB9A3E639D97BB9BE5B6 /* YPWebController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46C72BDADC16997A3579E63C589D9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327E009317EE6F27E7A9DDBF31974018 /* Pods-YPWebController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC77CB04037137F59101572303A52F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C947B4BE9410ABE65869BC16F6AA8F1 /* Pods-YPWebController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76C96EBC1801BB3DA95ED5EAEFE55231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPWebController;
+			target = C5D5F7A7A89FFAC8B38C32D836413967 /* YPWebController */;
+			targetProxy = B37AAF4AF50F90152A9ACE3F583DE117 /* PBXContainerItemProxy */;
+		};
+		DFD16DF13D270B5A93A52D3168DC8825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YPWebController_Example";
+			target = 979206E1BDD5F41E9FF33638977BA71C /* Pods-YPWebController_Example */;
+			targetProxy = 312C95B6A0A1FAB9F8D177CB14167C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FA15981E1043909793871DB268E8731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAA830ED004EB9279242DCC7B40D87B /* Pods-YPWebController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPWebController_Example/Pods-YPWebController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPWebController_Example/Pods-YPWebController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CB1342DCAB4469488C3195337301CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A7EADA82F50C7003B8E83B4018A7E6 /* YPWebController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/YPWebController/YPWebController-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/YPWebController/YPWebController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YPWebController/YPWebController.modulemap";
+				PRODUCT_MODULE_NAME = YPWebController;
+				PRODUCT_NAME = YPWebController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91470A3B9A3F19EDB89C20C82E80FEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A8BC81B4A0CD136637928F61BF7A7A /* YPWebController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/YPWebController/YPWebController-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/YPWebController/YPWebController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YPWebController/YPWebController.modulemap";
+				PRODUCT_MODULE_NAME = YPWebController;
+				PRODUCT_NAME = YPWebController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EECD94054F938F9D2B835130AF00A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EE9437DDFF667A6C0A7EE04FA45485 /* Pods-YPWebController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPWebController_Example/Pods-YPWebController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPWebController_Example/Pods-YPWebController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E91AEFE2929072328B0B994387140649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE67F5916DCE28BE1CB20A3F347B156D /* Pods-YPWebController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPWebController_Tests/Pods-YPWebController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPWebController_Tests/Pods-YPWebController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDE3E3F36D6C0882DBD3538F5D7175D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B1E14CC68669A1717F10EBB17A6BAE /* Pods-YPWebController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPWebController_Tests/Pods-YPWebController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPWebController_Tests/Pods-YPWebController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE96D555C8E58803757E199881FE849B /* Build configuration list for PBXNativeTarget "Pods-YPWebController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA15981E1043909793871DB268E8731 /* Debug */,
+				9EECD94054F938F9D2B835130AF00A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC3F793B55509C6B4F8D2E0A3D4EEFB /* Build configuration list for PBXNativeTarget "YPWebController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB1342DCAB4469488C3195337301CE1 /* Debug */,
+				91470A3B9A3F19EDB89C20C82E80FEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3F170F37DEF4877826678A94F259EB /* Build configuration list for PBXNativeTarget "Pods-YPWebController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE3E3F36D6C0882DBD3538F5D7175D2 /* Debug */,
+				E91AEFE2929072328B0B994387140649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
