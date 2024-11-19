@@ -37,23 +37,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029C9E12CF3BC3A076DC95CCCCAC7E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		029C9E12CF3BC3A076DC95CCCCAC7E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0774C03C4079A96FDDA7D5CC94DFB7A4 /* YPWebController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YPWebController-Info.plist"; sourceTree = "<group>"; };
-		0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPWebController; path = YPWebController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YPWebController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F43C8FB6BEFA2B4D8FB192EA2DA65F /* YPWebController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YPWebController.modulemap; sourceTree = "<group>"; };
-		145BEEA9489503E26511ED3AD1628E57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YPWebController_Tests"; path = Pods_YPWebController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		145BEEA9489503E26511ED3AD1628E57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1E34E8D1D83995A21C1F430B3C533992 /* Pods_YPWebController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPWebController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C37B4F6E02E9A144CEB440B0A641F8 /* Pods-YPWebController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPWebController_Tests.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F67CAB2EBDADCF2789086CE9AB46CE2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YPWebController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		44D8FBCFE3D6E9054EEFE01CBB265132 /* YPWebController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPWebController-umbrella.h"; sourceTree = "<group>"; };
 		4A519E237C82CA429319D9AEC9667F66 /* YPWebController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPWebController-dummy.m"; sourceTree = "<group>"; };
 		604918129155EEE8FF05EC435D7F0F8A /* YPWebController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPWebController-prefix.pch"; sourceTree = "<group>"; };
-		62C5BE214A19577033584C736663F1B0 /* YPWebController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YPWebController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62C5BE214A19577033584C736663F1B0 /* YPWebController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YPWebController.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		67A8BC81B4A0CD136637928F61BF7A7A /* YPWebController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPWebController.release.xcconfig; sourceTree = "<group>"; };
-		72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YPWebController_Example"; path = Pods_YPWebController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A1B303793080227AB8964D3610913F /* Pods_YPWebController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPWebController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7458497C054F1C13643F5BA58D7A6D50 /* Pods-YPWebController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPWebController_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EAA830ED004EB9279242DCC7B40D87B /* Pods-YPWebController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPWebController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2B2EAACCE7CE12A48563D24829D67CC /* Pods-YPWebController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPWebController_Example-Info.plist"; sourceTree = "<group>"; };
 		B8545E5DC6CD2C9195DED42FCEE52C04 /* Pods-YPWebController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPWebController_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -166,9 +166,9 @@
 		B0030D00E655F01C693211F4EC5276F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */,
-				1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */,
-				0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */,
+				72A1B303793080227AB8964D3610913F /* Pods_YPWebController_Example.framework */,
+				1E34E8D1D83995A21C1F430B3C533992 /* Pods_YPWebController_Tests.framework */,
+				0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-YPWebController_Tests";
 			productName = Pods_YPWebController_Tests;
-			productReference = 1E34E8D1D83995A21C1F430B3C533992 /* Pods-YPWebController_Tests */;
+			productReference = 1E34E8D1D83995A21C1F430B3C533992 /* Pods_YPWebController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		979206E1BDD5F41E9FF33638977BA71C /* Pods-YPWebController_Example */ = {
@@ -288,7 +288,7 @@
 			);
 			name = "Pods-YPWebController_Example";
 			productName = Pods_YPWebController_Example;
-			productReference = 72A1B303793080227AB8964D3610913F /* Pods-YPWebController_Example */;
+			productReference = 72A1B303793080227AB8964D3610913F /* Pods_YPWebController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C5D5F7A7A89FFAC8B38C32D836413967 /* YPWebController */ = {
@@ -306,7 +306,7 @@
 			);
 			name = YPWebController;
 			productName = YPWebController;
-			productReference = 0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController */;
+			productReference = 0EF926C8ACC6B362CFF0C6659D525B1A /* YPWebController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,8 +327,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = B0030D00E655F01C693211F4EC5276F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -498,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
